@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profile"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".Login_form">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/cardview_light_background"
+        android:layout_marginTop="300dp"
+        >
+        <EditText
+            android:id="@+id/txt_Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColor="@color/cardview_light_background"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="22sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/cardview_light_background"
+        android:layout_marginTop="5dp"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/cardview_light_background"
+        >
+
+        <EditText
+            android:id="@+id/txt_Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:ems="10"
+            android:textColor="@color/cardview_light_background"
+            android:inputType="textPassword"
+            android:textSize="22sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="LOGIN"
+        android:textSize="22sp"
+        android:textColor="@color/cardview_dark_background"
+        android:background="@drawable/buttonrounded"
+        android:layout_marginTop="65dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="SIGN UP"
+        android:textSize="22sp"
+        android:textColor="@color/cardview_dark_background"
+        android:background="@drawable/buttonrounded"
+        android:layout_marginTop="15dp"
+        android:onClick="btn_su"
+        />
+
+</LinearLayout>

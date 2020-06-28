@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sms"
+    tools:context=".SM"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_weight="1"
+        android:background="#C83D82EC"
+        android:text="Facebook"
+        android:textColor="#1D2CC5"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:onClick="btn_fb"
+        />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="#BCE11A84"
+        android:text="Instagram"
+        android:onClick="btn_ig"
+        android:textColor="#D6AD1A"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:onClick="btn_t"
+        android:background="#BA2E5BB5"
+        android:text="Twitter"
+        android:textColor="#E5E9EF"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

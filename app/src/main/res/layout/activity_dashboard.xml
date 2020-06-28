@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/db"
+    android:padding="30dp"
+    android:orientation="vertical"
+    tools:context=".dashboard"
+
+>
+
+    <Button
+
+        android:id="@+id/button"
+        android:layout_width="163dp"
+        android:layout_height="151dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/fkb"
+        android:onClick="btn_fk"
+        tools:visibility="visible" />
+
+    <Button
+
+        android:id="@+id/button2"
+        android:layout_width="163dp"
+        android:layout_height="151dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/les"
+        android:onClick="btn_youtube"
+
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="163dp"
+        android:layout_height="151dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/smm"
+        android:onClick="btn_social"
+        tools:visibility="visible" />
+
+    <Button
+
+        android:id="@+id/button4"
+        android:layout_width="163dp"
+        android:layout_height="151dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/wb"
+        android:onClick="btn_web"
+        tools:visibility="visible" />
+</RelativeLayout>
